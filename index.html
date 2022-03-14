@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+<div class="container">
+
+<!-- ======= About Section ======= -->
+<section class="about-us">
+    <h3 class="text-center section-title">About US</h3>
+    <div class="line-mf mb-4"></div>
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <div class="about-text-sec">
+                <h4>Column 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <img class="img-fluid" src="assets/img/about-img.svg"/>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- ======= End About Section ======= -->
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="pt-5">
+    <div class="container">
+        
+            <h3 class="text-center section-title">Services</h3>
+            <div class="line-mf mb-4"></div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="shadow-sm p-4 mb-4 bg-white text-center services-box">
+                    <div class="ico-circle mb-4">
+                        <i class="fa fa-mobile fa-2x service-icon"></i>
+                    </div>
+                    
+                    <h5>WEB DESIGN</h5>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="shadow-sm p-4 mb-4 bg-white text-center services-box">
+                    <div class="ico-circle mb-4">
+                        <i class="fa fa-code fa-2x service-icon"></i>
+                    </div>
+                    
+                    <h5>WEB DEVELOPMENT</h5>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="shadow-sm p-4 mb-4 bg-white text-center services-box">
+                    <div class="ico-circle mb-4">
+                        <i class="fa  fa-wrench fa-2x service-icon"></i>
+                    </div>
+                    
+                    <h5>WEBSITE MAINTANACE</h5>
+
+                    <p class="services-description text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======= End Services Section ======= -->
+
+<!-- ======= Portfolio Section ======= -->
+<section class="portfolio">
+    <div class="container">
+        <h3 class="text-center section-title">Portfolio</h3>
+        <div class="line-mf mb-4"></div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <div class="work-img">
+                        <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                      </div>
+                    </a>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <h2 class="w-title">Studio Big Bang</h2>
+                          <div class="w-more">
+                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="w-like">
+                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div><!--end of md-4-->
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <div class="work-img">
+                        <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                      </div>
+                    </a>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <h2 class="w-title">Studio Big Bang</h2>
+                          <div class="w-more">
+                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="w-like">
+                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div><!--end of md-4-->
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <div class="work-img">
+                        <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                      </div>
+                    </a>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <h2 class="w-title">Studio Big Bang</h2>
+                          <div class="w-more">
+                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="w-like">
+                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div><!--end of md-4-->
+        </div>
+    </div>
+</section>
+<!-- ======= End Portfolio Section ======= -->
+
+
+<!-- ======= Team Section ======= -->
+<section class="team">
+    <div class="container">
+        <h3 class="text-center section-title">Our Team</h3>
+        <div class="line-mf mb-4"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="shadow-sm p-4 mb-4 bg-white text-center">
+                    <img src="https://via.placeholder.com/150" class="img-fluid rounded-circle mb-4" alt="Esethu">
+                    <p>jjjjsdsdsdjkskjsddsjkdskjdjkds</p>
+                    <div class="team-socials">
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="shadow-sm p-4 mb-4 bg-white text-center">
+                    <img src="https://via.placeholder.com/150" class="img-fluid rounded-circle mb-4" alt="Esethu">
+                    <p>jjjjsdsdsdjkskjsddsjkdskjdjkds</p>
+                    <div class="team-socials">
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======= End Team Section ======= -->
+
+<!-- ======= Contact Section ======= -->
+<section class="contact">
+    <div class="container">
+        <h3 class="text-center section-title">Contact</h3>
+        <div class="line-mf mb-4"></div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="shadow-sm p-4 mb-4 bg-white text-center">
+                    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======= End Contact Section ======= -->
+
+</body>
+</html>
