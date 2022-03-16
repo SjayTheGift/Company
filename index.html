@@ -8,20 +8,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top px-5 primary-nav">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav  ml-auto">
         <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -32,7 +29,7 @@
             <a class="nav-link" href="#">Services</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Team</a>
@@ -44,16 +41,42 @@
     </div>
 </nav>
 
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
+<!-- ======= Home Section ======= -->
+<section class="home mb-4">
+  <br/><br/><br/><br/>
+  <div class="intro">
+    <div class="text-wrapper">
+        <h1 class="wow fadeInUp home-text" data-wow-delay=".1s">Welcome to Company Name</h1>
+        <h2 class="mt-4">
+					  <a href="" class="typewrite" data-period="1000" data-type='["I am Creative.", "I Love UI/UX Design.", "I Love Web Development." ]'>
+						<span class="wrap"></span>
+					  </a>
+				</h2>
+					
+					
+					
+					
+				<div class="my_btn mt-6 wow rubberBand"data-wow-delay=".3s">
+						<a  class="btn  btn-lg mr-2 button"  href="#contact"><i class="fa fa-rocket"></i> Hire Us</a>
+						<a  class="btn  btn-lg ml-2 button" href="#portfolio"><i class="fa fa-briefcase"></i> Projects</a>
+				</div>
+					
+    </div>
+    </div>
+
+</section>
+
+
+<!-- ======= End Section ======= -->
+
+
   
 <div class="container">
 
+
 <!-- ======= About Section ======= -->
-<section class="about-us">
-    <h3 class="text-center section-title">About US</h3>
+<section class="about-us mb-4" id="about">
+    <h3 class="text-center section-title mt-4">About US</h3>
     <div class="line-mf mb-4"></div>
     <div class="row">
         <div class="col-md-6 col-sm-12">
@@ -116,10 +139,10 @@
 </section>
 <!-- ======= End Services Section ======= -->
 
-<!-- ======= Portfolio Section ======= -->
-<section class="portfolio">
+<!-- ======= Projects Section ======= -->
+<section class="projects">
     <div class="container">
-        <h3 class="text-center section-title">Portfolio</h3>
+        <h3 class="text-center section-title">Projects</h3>
         <div class="line-mf mb-4"></div>
 
         <div class="row">
@@ -255,4 +278,8 @@
 <!-- ======= End Contact Section ======= -->
 
 </body>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
 </html>
